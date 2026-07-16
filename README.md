@@ -73,10 +73,7 @@ CREATE DATABASE IF NOT EXISTS cold_email_automation;
 
 ### 2. Configure Environment Properties
 The application database credentials can be customized in `src/main/resources/application.properties`:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/cold_email_automation
-spring.datasource.username=root
-spring.datasource.password=MySQL
+
 ```
 
 ### 3. Run the Application
@@ -87,23 +84,6 @@ mvn spring-boot:run
 ---
 
 ## 🔑 Pre-Seeded Accounts (Seeded automatically on boot)
-
-### Web App Login:
-* **Administrator**:
-  * **Username**: `admin`
-  * **Password**: `admin`
-* **Regular User**:
-  * **Username**: `user`
-  * **Password**: `user`
-
-### SMTP Account:
-We have pre-seeded your primary Gmail configuration:
-* **Gateway Name**: `Primary Gmail`
-* **Email / Username**: `kreshiv02@gmail.com`
-* **Host**: `smtp.gmail.com`
-* **Port**: `587`
-* **Encryption**: STARTTLS enabled
-* **Status**: Active (Ready to route campaigns)
 
 ---
 
