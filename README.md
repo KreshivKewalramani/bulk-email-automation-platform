@@ -83,8 +83,6 @@ mvn spring-boot:run
 ```
 ---
 
-## 🔑 Pre-Seeded Accounts (Seeded automatically on boot)
-
 ---
 
 ## 📁 Directory Structure
